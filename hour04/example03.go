@@ -4,7 +4,8 @@ import "fmt"
 
 func sumNumbers(numbers ...int) int {
 	total := 0
-	for _, number := range numbers {
+	for index, number := range numbers {
+		fmt.Println(index)
 		total += number
 	}
 	return total

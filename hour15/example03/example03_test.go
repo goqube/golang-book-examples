@@ -3,7 +3,7 @@ package example03
 import "testing"
 
 func TestFrTranslation(t *testing.T) {
-	got := translate("fr")
+	got := translate("fr-FR")
 	want := "Bonjour "
 	if got != want {
 		t.Fatalf("Expected %q, got %q", want, got)

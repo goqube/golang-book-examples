@@ -9,7 +9,7 @@ func main() {
 	cheeses[2] = "Camembert"
 	fmt.Println(len(cheeses))
 	fmt.Println(cheeses)
-	cheeses = append(cheeses[:2], cheeses[2+1:]...)
+	cheeses = append(cheeses[:1], cheeses[1+1:]...)
 	fmt.Println(len(cheeses))
 	fmt.Println(cheeses)
 }

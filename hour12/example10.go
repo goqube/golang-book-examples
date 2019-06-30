@@ -38,7 +38,7 @@ func main() {
 		go responseTime(u, c)
 	}
 
-	timeout := time.After(300 * time.Millisecond)
+	timeout := time.After(3000 * time.Millisecond)
 
 	for i := 1; i <= len(urls); i++ {
 		select {
